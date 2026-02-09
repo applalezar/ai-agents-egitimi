@@ -1,15 +1,46 @@
-İlk MCP Sunucunuzu Kurun: Yönetimi Bırakın
-Bu yapay zeka aracı, insan kaynakları departmanına izin yönetimiyle ilgili görevlerde yardımcı olur. Buradaki kod tabanı, sahte izin veritabanıyla etkileşim kuran ve MCP istemci sorgularına yanıt veren MCP sunucusu içindir.
+# İlk MCP Sunucunuzu Oluşturun: İzin Yönetimi
 
-Kurulum adımları
-Claude Desktop'ı yükleyin
-UV'yi çalıştırmak için yükleyin.pip install uv
-uv init my-first-mcp-serverProje dizini oluşturmak için çalıştırın.
-uv add "mcp[cli]"Projenize mcp CLI'yı eklemek için çalıştırın.
-pip install --upgrade typerBazı kişilerde tür hataları oluşabilir; bu durumda TypeR kütüphanesini en son sürüme yükseltmek için komut çalıştırabilirsiniz.
-İzin yönetimi sunucusu için main.py dosyasına kod yazın.
-uv run mcp install main.pyProje dizininde aşağıdaki komutu çalıştırarak bu sunucuyu Claude masaüstüne kurun.
-Görev Yöneticisi'nden Claude'un çalışan tüm örneklerini sonlandırın. Claude Desktop'ı yeniden başlatın.
-Claude masaüstünde artık bu sunucuya ait araçları göreceksiniz.
+Bu yapay zeka aracı, İK departmanının izin yönetimi ile ilgili görevlerinde yardımcı olur. Buradaki kod tabanı, sahte izin veritabanı ile etkileşime giren ve MCP istemci sorgularına yanıt veren bir MCP sunucusu içindir.
+
+## Kurulum Adımları
+
+1. **Claude Desktop'ı Yükleyin**
+
+2. **uv'yi yükleyin**
+   ```bash
+   pip install uv
+   ```
+
+3. **Proje dizini oluşturun**
+   ```bash
+   uv init my-first-mcp-server
+   ```
+
+4. **Projenize MCP CLI ekleyin**
+   ```bash
+   uv add "mcp[cli]"
+   ```
+
+5. **Tür hatalarını düzeltin** (bazı kişiler için gerekli olabilir)
+   ```bash
+   pip install --upgrade typer
+   ```
+   Typer kütüphanesini en son sürümüne yükseltin
+
+6. **İzin yönetimi sunucusu için `main.py` dosyasına kod yazın**
+
+7. **Bu sunucuyu Claude Desktop içine kurun**
+   ```bash
+   uv run mcp install main.py
+   ```
+   Proje dizininde bu komutu çalıştırın
+
+8. **Claude'un çalışan tüm örneklerini kapatın**
+   Görev Yöneticisi'nden (Task Manager) kapatın
+
+9. **Claude Desktop'ı yeniden başlatın**
+
+10. **Araçları görüntüleyin**
+    Claude Desktop'ta artık bu sunucudan gelen araçları görebileceksiniz
 
 ©Tüm hakları saklıdır. Lalezar Yazılım  
