@@ -2,5 +2,5 @@
 
 Yapay zekâ ajanlarıyla ilgili eğitimler
 
-1.Egitim:İlk MCP Sunucu kurulumu
-2.
+İlk MCP Sunucu kurulumu
+
