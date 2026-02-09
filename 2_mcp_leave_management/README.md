@@ -1,16 +1,15 @@
-# Build Your First MCP Server: Leave Management
-This AI tool helps an HR with leave management related tasks. The codebase here 
-is for MCP server that interacts with mock leave database and responds to MCP client queries
+İlk MCP Sunucunuzu Kurun: Yönetimi Bırakın
+Bu yapay zeka aracı, insan kaynakları departmanına izin yönetimiyle ilgili görevlerde yardımcı olur. Buradaki kod tabanı, sahte izin veritabanıyla etkileşim kuran ve MCP istemci sorgularına yanıt veren MCP sunucusu içindir.
 
-# Setup steps
-1. Install Claude Desktop
-2. Install uv by running `pip install uv`
-3. Run `uv init my-first-mcp-server` to create a project directory
-4. Run `uv add "mcp[cli]"` to add mcp cli in your project
-5. Few folks may get type errors for which you can run `pip install --upgrade typer` to upgrade typer library to its latest version
-6. Write code in main.py for leave management server
-7. Install this server inside Claude desktop by running `uv run mcp install main.py` in the project directory
-8. Kill any running instance of Claude from Task Manager. Restart Claude Desktop
-9. In Claude desktop, now you will see tools from this server
+Kurulum adımları
+Claude Desktop'ı yükleyin
+UV'yi çalıştırmak için yükleyin.pip install uv
+uv init my-first-mcp-serverProje dizini oluşturmak için çalıştırın.
+uv add "mcp[cli]"Projenize mcp CLI'yı eklemek için çalıştırın.
+pip install --upgrade typerBazı kişilerde tür hataları oluşabilir; bu durumda TypeR kütüphanesini en son sürüme yükseltmek için komut çalıştırabilirsiniz.
+İzin yönetimi sunucusu için main.py dosyasına kod yazın.
+uv run mcp install main.pyProje dizininde aşağıdaki komutu çalıştırarak bu sunucuyu Claude masaüstüne kurun.
+Görev Yöneticisi'nden Claude'un çalışan tüm örneklerini sonlandırın. Claude Desktop'ı yeniden başlatın.
+Claude masaüstünde artık bu sunucuya ait araçları göreceksiniz.
 
-@All rights reserved. Codebasics Inc. LearnerX Pvt Ltd. 
+©Tüm hakları saklıdır. Lalezar Yazılım  
