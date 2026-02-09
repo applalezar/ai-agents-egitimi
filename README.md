@@ -1,2 +1,5 @@
-# ai-agents
-Tutorials related to AI agents
+#yapay zeka ajanları
+Yapay zekâ ajanlarıyla ilgili eğitimler
+
+1.Egitim:İlk MCP Sunucu kurulumu
+2.
